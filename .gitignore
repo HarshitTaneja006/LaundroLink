@@ -1,0 +1,62 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+.turbo/
+
+# Dependencies
+node_modules/
+.npm
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# User-generated files
+uploads/
+.local
+.local/
+
+# Distribution files - should be built, not committed
+dist/
+public/
+
+# Large archives - should not be committed
+*.zip
+!package-lock.json
+laundrolink.zip
+attached_assets/
+
+# Temporary files
+*.tmp
+.cache/
+
+.agents
+
+.replit
